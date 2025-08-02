@@ -6,6 +6,7 @@ import picocli.CommandLine;
 
 @CommandLine.Command(
 		name = "add",
+		aliases = {"create","plus"},
 		version = "1.0.0",
 		mixinStandardHelpOptions = true,
 		requiredOptionMarker = '*',
