@@ -9,8 +9,7 @@ public class Main{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		new CommandLine(new MainCommand()).execute("-u=oleg");
-		
+		new CommandLine(new MainCommand()).execute("-V");
 		
 		/*final CommandLine cmd = new CommandLine(new MainCommand());
 		final CommandLine.ParseResult parseResult = cmd.parseArgs(args);
@@ -18,7 +17,8 @@ public class Main{
 			System.out.println(cmd.getUsageMessage());
 		}
 		int exitCode = cmd.execute(args);
-		System.exit(exitCode);*/
+		*/
+		//System.exit(exitCode);
     }
 	
 }
